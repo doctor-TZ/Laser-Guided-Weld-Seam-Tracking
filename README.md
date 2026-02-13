@@ -94,7 +94,7 @@ $$P_{sub} = \frac{\sum_{i=1}^{n} (i \cdot G_i)}{\sum_{i=1}^{n} G_i}$$
 2. 安装依赖: `pip install -r requirements.txt`
 3. 运行程序:
    - 视频版: `python usingVideo.py`
-   - 摄像头版: `python usingCamera.py` (需要自己搭建硬件)
+   - 摄像头版: `python usingCamera.py` (需要自己搭建硬件,关键是你你需要固定住摄像头和激光器,然后二者的夹角在45-60°/Hardware setup is required. The key is to securely fix the camera and the laser line generator, maintaining an inclusion angle between $45^\circ$ and $60^\circ$.)
 
 
 ---
