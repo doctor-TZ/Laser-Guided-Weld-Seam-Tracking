@@ -1,0 +1,16 @@
+# 忽略所有视频文件（防止大文件冲进仓库）
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# 忽略 Python 自动生成的缓存
+__pycache__/
+*.pyc
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略可能的虚拟环境
+venv/
