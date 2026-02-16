@@ -14,11 +14,14 @@ if __name__=='__main__':
     #获取lut信息 
     base_lut_path = 'data/base_lut.npy'
     #获取相机的内参与畸变系数
+    #get the mtx and dist of the camera
     with np.load('data/camera_params.npz') as data:
         mtx = data['mtx']
         dist = data['dist']
+    #with base_distance, you can calculate the real offset of pixel to camera
     BASE_DISTANCE = 550     #mm
     #获取三角测量系数
+    #in getTraigleRatio.py, we count the different height and different offset,then we get the K_TRI and B_TRI and save it to the json file.
     config_file = 'data/config.json'
     if os.path.exists(config_file):
         with open(config_file,'r')  as f:
