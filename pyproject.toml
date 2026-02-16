@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weld_vision_system"
+version = "0.1.0"
+description = "焊接视觉系统核心库"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "scikit-learn",
+    "scipy",
+    "open3d"
+]
+
+[tool.setuptools]
+# 告诉打包工具，根目录下的这些 py 文件就是包的内容
+py-modules = ["utils", "main_methods","calibrateCamera"]

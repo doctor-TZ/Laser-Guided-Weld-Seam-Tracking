@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: weld_vision_system
+Version: 0.1.0
+Summary: 焊接视觉系统核心库
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: open3d

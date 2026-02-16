@@ -7,6 +7,7 @@ import pandas as pd
 
 '''
 本程序用于获取激光平面基础高度数据
+use this program to test base height
 '''
 ROI_H = slice(10,540)
 ROI_W = slice(300,1100)

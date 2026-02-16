@@ -69,6 +69,33 @@ $$P_{sub} = \frac{\sum_{i=1}^{n} (i \cdot G_i)}{\sum_{i=1}^{n} G_i}$$
 
 ---
 
+## project tree
+
+
+```
+weld_vision_system
+
+├─ calibrateCamera.py
+├─ data
+├─ Images
+│  ├─ chessboard
+│  ├─ deapthImgs
+│  └─ hanfeng
+│     └─ output.mp4
+├─ main0_usingVideo.py
+├─ main1_usingCamera.py
+├─ main_methods.py
+├─ pip0_getBaseHight.py
+├─ pip1_getTriangleRatio.py
+├─ pyproject.toml
+├─ README.md
+├─ requirements.txt
+├─ tests
+├─ utils.py
+
+```
+
+
 ## 🚀 性能表现 | Performance (Experimental Results)
 
 | 指标 (Metric) | 表现 (Performance) | 备注 (Notes) |
@@ -76,6 +103,8 @@ $$P_{sub} = \frac{\sum_{i=1}^{n} (i \cdot G_i)}{\sum_{i=1}^{n} G_i}$$
 | **FPS (Processing Speed)** | 15 - 30 Hz | 在消费级 PC/嵌入式设备实测 (On standard PC hardware) |
 | **Static Error (Absolute)** | $\pm 0.5$ mm | 受限于简易激光器线宽 (Limited by laser line width) |
 | **Success Rate (Recognition)** | > 90% | 能有效应对金属表面反光干扰 (Robust against reflections) |
+
+
 
 
 ## 硬件搭建| Hardware Setup
@@ -102,4 +131,5 @@ $$P_{sub} = \frac{\sum_{i=1}^{n} (i \cdot G_i)}{\sum_{i=1}^{n} G_i}$$
 ## 📄 版权声明 | Copyright
 
 **本项目代码仅作为个人简历展示及技术交流使用，未经许可严禁任何形式的商用、转载或二次分发。** **All Rights Reserved.** The source code in this repository is for personal portfolio demonstration and technical exchange only. No part of this project may be copied, modified, or distributed for commercial purposes without explicit permission.
+
 

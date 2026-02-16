@@ -7,6 +7,7 @@ import json
 
 '''
 使用最小二乘法拟合偏移量与高度的数据
+use this program to get the ratio between the height and offset, and save it to json
 '''
 
 roi_height = slice(900,1050)
