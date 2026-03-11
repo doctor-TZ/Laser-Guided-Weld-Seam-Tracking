@@ -8,7 +8,7 @@ https://www.bilibili.com/video/BV1zpc5zoEx4/
 
 ## 为什么做这个项目? | Why this project?
    
-**此项目作为应聘 CV 算法工程师的展示 Demo，复刻了工业级线结构光扫描器的核心 Pipeline。虽然硬件配置属于消费级，但在软件算法层面实现了完整的抗干扰策略与亚像素级提取算法。 本项目不仅展示了计算机视觉在工业自动化中的实际应用，更体现了在有限硬件预算下追求极致鲁棒性的工程思维。**
+**此项目使用廉价设备模拟了工业中的焊缝追踪方法,焊缝追踪能够代替人手工解决沉重的或者不方便的零件的焊接问题,此项目在设计的过程中考虑了激光点失去交点,干扰因素的影响等鲁棒性,涉及到的2D和3D技术较为全面**
 
 **This project serves as a technical demonstration for a CV Algorithm Engineer position, replicating the core pipeline of industrial-grade laser stripe scanners. While utilizing consumer-grade hardware, the system implements a complete suite of anti-interference strategies and sub-pixel precision validation at the algorithmic level. It represents my understanding of robustness, real-time performance, and cost-effective mass-production solutions in industrial vision. Beyond demonstrating the practical application of Computer Vision in factory automation, this project reflects an engineering mindset: pursuing ultimate robustness under limited hardware budgets.**
 
