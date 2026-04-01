@@ -106,8 +106,6 @@ weld_vision_system
 ## 硬件搭建| Hardware Setup
    本项目采用普通廉价的线激光发生器与 USB 摄像头。安装时需注意相机与激光平面的夹角应保持在 $45^\circ$ 至 $60^\circ$ 之间，以确保三角测量模型具有最佳的深度灵敏度。
    The system is built using a cost-effective line laser module and a standard USB camera. During assembly, the mounting angle between the camera and the laser plane must be maintained at approximately $45^\circ$ to $60^\circ$. This specific geometric configuration ensures optimal depth sensitivity for the triangulation model.
-![IMG_2108](https://github.com/user-attachments/assets/4fcf47fe-ff55-4ce1-9127-d04621403684)
-
 
 
 
