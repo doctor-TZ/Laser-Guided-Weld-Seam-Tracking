@@ -1,10 +1,6 @@
 # RoboWeld-Vision: 低成本激光视觉焊缝实时追踪系统
 # RoboWeld-Vision: A Real-Time Laser Seam Tracking System with Sub-pixel Precision
 
-在线演示地址:
-https://www.bilibili.com/video/BV1zpc5zoEx4/
-视频截图:
-<img width="1519" height="881" alt="Snipaste_2026-02-13_10-05-28" src="https://github.com/user-attachments/assets/78badd96-636c-44e0-91fe-5aa1dffd91dd" />
 
 ## 为什么做这个项目? | Why this project?
    
